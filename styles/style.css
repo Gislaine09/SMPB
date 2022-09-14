@@ -1,0 +1,631 @@
+
+/* FORMATAÇÃO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DC143C;
+  border-radius: 5px;
+
+}
+
+/* LOGO ANIMATION / LOGO IMG */
+.logo-anim {
+  text-decoration: none;
+}
+
+#logoImg {
+  margin-right: 2px;
+  width: 200px;
+  height: 150px;
+  transition: 0.6s;
+}
+
+
+/* HEADER E NAVBAR */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+.imgHeader{
+  position: absolute;
+  background-image: url("../images/imgFundo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  z-index: -1;
+  margin-right: 10px;
+}
+
+#navbar-list{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-item {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 85%;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+} 
+
+.nav-item:hover {
+  color: #DC143C;
+}
+
+/*titulo*/
+
+
+
+
+h1{
+  font-size: 50px;
+  margin-top: -370px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h5{
+  text-align: center;
+  color: #363636;
+  font-size: 23px;
+}
+
+/*tudo*/
+.section-tudo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway Bold", Arial;
+  margin-top: 100px;
+}
+
+#titulo-section{
+    font-size: 40px;
+}
+
+.line {
+  margin-top: -5px;
+  width: 247px;
+  height: 3px;
+  background: #960019;
+  border-radius: 10px;
+
+}
+
+.line1 {
+  margin-top: 2px;
+  width: 230px;
+  height: 3px;
+  background: black;
+  border-radius: 10px;
+}
+
+.text-sobre {
+  margin-top: 50px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align:center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* origem */
+.class-origem-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+.origemImgHolder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-origem{
+  width:29vw;
+  height:30vh;
+  border-radius: 60px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.legend-bandeira-nz{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.legend-bandeira-canada{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+
+/* agente */
+.textAgenteHolder{
+  width: 45vw;
+  text-align: justify;
+}
+
+.class-agente-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.agenteHolder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-agente{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#img-agente{
+  width: 32vw;
+  height: 40vh;
+  border-radius: 60px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+#titulo-section-agente{
+  font-size: 40px;
+}
+
+.legend-agente{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+
+}
+
+/* sintomas */
+.sintomasHolder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sintomasListaHolder{
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.lista{
+  list-style-type: disc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+
+}
+.class-sintomas-img{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+#img-sintomas{
+  width:23vw;
+  height: 25vh;
+  border-radius: 60px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.legend-sintomas{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+
+}
+
+/* prevencao */
+.prevencaoImgHolder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.class-prevencao-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#img-prevencao{
+  width: 25vw;
+  height: 25vh;
+  border-radius: 60px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.legend-prevencao-alcool{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-left: 45px;
+}
+
+.legend-prevencao-lavar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-left: 600px;
+  margin-top: -55px;
+}
+
+.legend-prevencao-limpeza{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-left: 1050px;
+  margin-top: -60px;
+}
+
+/* footer */
+.container-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:  100px;
+  background-color:black;
+}
+
+#logo-img{
+  padding-top: 5px;
+  width: 10%;
+}
+
+#copyright{
+  font-family: "Raleway Bold", Arial;
+  color: #FAFAD2;
+  font-size: 24px;
+}
+
+/*Bibliografia*/
+.text-bibli{
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bibliHolder{
+  width: 80vw;
+  height: fit-content;
+  word-wrap: break-word;
+}
+
+/* -------------------------------------------------------------------- */
+/*responsividade */
+@media screen and (max-width: 900px){
+
+  .imgHeader{
+    display: none;
+    }
+
+  .navbaHolder{
+    display: flex;
+    flex-direction: column !important;
+    width: 90vw;
+
+  }
+  .text-agente {
+    text-align: justify;
+    text-align:center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .navba{
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .tituloPrincipal{
+    text-decoration: none;
+    font-size: 50px;
+    line-break: auto;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  main{
+    margin-top: 100px !important;
+  
+  }
+
+  #navbar-list{
+    display: flex;
+    overflow-wrap: normal;
+    list-style: none;
+    gap: 1rem;
+    margin-top: 0,50%;
+
+  }
+  
+  .nav-item {
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1; 
+  
+  }
+
+  .titulo{
+    display: flex;
+    width: 75vw;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    margin-top: 200px !important;
+    }
+
+  
+/*titulo*/
+h1{
+  font-size: 40px;
+  margin-top: -400px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h5{
+  text-align: center;
+  color: #363636;
+  font-size: 23px;
+}
+
+  /* TUDO */
+#titulo-section{
+    font-size: 20%;
+  }
+  
+  .line {
+    margin-top: 0,50%;
+    width: 247px;
+    height: 3px;
+    background: #960019;
+    border-radius: 10px;
+  
+  }
+  
+  .line1 {
+    margin-top: 2px;
+    width: 230px;
+    height: 3px;
+    background: black;
+    border-radius: 10px;
+  }
+  
+  .text-sobre {
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+
+/* AGENTE */
+#img-agente{
+  width: 35vw;
+  height: 20vh;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.textAgenteHolder{
+  width: 50vw;
+  text-align: justify;
+}
+
+  /* SINTOMAS */
+  .sintomasHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sintomasListaHolder{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    padding-right: -100px;
+  }
+
+  .lista{
+    list-style-type: disc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .class-sintomas-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  
+  }
+  
+  #img-sintomas{
+    width:40vw;
+    height:20vh;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  .legend-sintomas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  
+  }
+
+  /* PREVENCAO */
+.class-prevencao-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+#img-prevencao{
+    width: 40vw;
+    height: 20vh;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+
+
+  .legend-prevencao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+  
+  }
+
+  /* ORIGEM */
+  #img-origem{
+    width:35vw;
+    height:15vh ;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+ 
+
+/*bibli*/
+.text-bibli{
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bibliHolder{
+  width: 80vw;
+  height: fit-content;
+  word-wrap: break-word;
+}
+
+
+.container-footer{
+  text-align: center;
+  width: 100vw;
+}
+} 
+
+
+/* desculpa gi mas eu não sei organizar css */
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+
+}
+
+main{
+  margin-top: 350px;
+
+}
+.navba{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-lista{
+align-self: center;
+}
+.titulo{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-self: center;
+margin-top: 450px;
+}
+
+.tituloPrincipal:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+  color: #D30000;
+}
+
+.tituloPrincipal{
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtituloPrincipal{
+  text-decoration: none;
+  color: #363636;
+  font-size: 23px;
+}
+
+  .navbaHolder{
+    display: flex;
+    flex-direction: row;
+
+  }
