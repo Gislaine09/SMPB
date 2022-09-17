@@ -308,7 +308,7 @@ h2{
 
 #logo-img{
   padding-top: 5px;
-  width: 25%;
+  width: 10%;
 }
 
 #copyright{
@@ -583,6 +583,11 @@ h5{
 .container-footer{
   text-align: center;
   width: 100vw;
+}
+
+#logo-img{
+  padding-top: 5px;
+  width: 25%;
 }
 }
 
