@@ -308,7 +308,7 @@ h2{
 
 #logo-img{
   padding-top: 5px;
-  width: 10%;
+  width: 25%;
 }
 
 #copyright{
@@ -357,7 +357,7 @@ h2{
   .navbaHolder{
     display: flex;
     flex-direction: column !important;
-    width: 90vw;
+    width: 60vw;
 
   }
   .text-agente {
@@ -410,7 +410,7 @@ h2{
   .nav-item {
     font-family: sans-serif;
     color: black;
-    font-size: 15px;
+    font-size: 70%;
     text-decoration: none;
     letter-spacing: 1; 
   
@@ -541,7 +541,7 @@ h5{
   align-items: center;
   width: 100vw;
   height: 70vh;
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 #img-prevencao{
@@ -555,7 +555,6 @@ h5{
   .legend-prevencao{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-  
   }
 
   /* ORIGEM */
